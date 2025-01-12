@@ -1,0 +1,50 @@
+body {
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
+.content {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 600px;
+    margin: auto;
+    border: solid;
+    border-color: grey;
+    padding: 5% 10% 5% 10%;
+    line-height: 1.5;
+
+}
+header {
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    text-align: center;
+}
+h1 {
+    line-height: 50px;
+}  
+h2 {
+    color: #006EB6;
+    font-size: 17px;
+    margin-bottom: 0px;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    font-style: normal;
+    line-height: 0px;
+}
+main {
+    text-align: left;
+}
+img {
+    width: 150px;
+    display: block;
+    margin: 0 auto; 
+    padding-top: 20px;
+}
+#list {
+    font-style: italic;
+}
+li {
+    padding-bottom: 20px;
+}
+hr {
+    margin-bottom: 40px;
+}
