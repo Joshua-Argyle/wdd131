@@ -13,6 +13,28 @@ body {
     line-height: 1.5;
 
 }
+#blueLogo {
+    display: block;
+}
+
+#whiteLogo {
+    display: none;
+}
+body.dark #blueLogo {
+    display: none;
+}
+
+body.dark #whiteLogo {
+    display: block;
+}
+
+body.dark {
+    background-color: #333;
+    color: white
+}
+.dark h2 {
+    color: rgb(160, 212, 237);
+}
 header {
     text-transform: capitalize;
     letter-spacing: 2px;
