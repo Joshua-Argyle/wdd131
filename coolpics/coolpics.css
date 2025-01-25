@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Mooli&display=swap");
+:root {
+    --primary-color: #52489c;
+    --secondary-color: #dddddd;
+    --accent-color: #f45b69;
+    --text-dark: #333;
+    --text-light: #ebebeb;
+    --primary-font: Arial, Helvetica,sans-serif;
+    --secondary-font: Mooli, san-serif;
+    }
+img {
+	max-width: 100%;
+    object-fit: cover;
+    height: 150px;
+    width: 150px;
+    border: black;
+    padding: 5px;
+    background-color: white;
+    box-shadow: 5px 5px;
+}
+#title {
+    font-size: 3em;
+}
+main {
+    color: var(--text-dark);
+    margin: 0%;
+}
+a:link, a:visited {
+  color: var(--accent-color);
+}
+header {
+    background-color: var(--primary-color);
+    color: var(--text-light);
+    padding-bottom: 5%;
+    margin-bottom: 0%;
+    min-width: 100%;
+}
+nav {
+    color: var(--text-light);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 25%;
+    padding-left: 25%;
+    flex-direction: column;
+    line-height: 25px;
+}
+h1, header {
+    font-family: 'Mooli';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    color: var(--text-light);
+}
+nav, main, h1, footer {
+    font-family: Arial, Helvetica,sans-serif;
+}
+button {
+    background: none;
+    border: none;
+    color: var(--text-light);
+    font-size: 0.7em;
+  }
+footer {
+    background-color: var(--primary-color);
+    color: var(--text-light);
+}
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    text-align: center;
+    background-color: #dddddd;
+  }
+  @media screen and (min-width: 700px) {
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+}
+    nav {
+        display: none;
+    }
+    img {
+        height: 250px;
+    width: 250px;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 16px;
+}
+    button {
+        display: none;
+    }
+    nav {
+        color: var(--text-light);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 25%;
+        padding-left: 25%;
+        flex-direction: row;
+
+    }
+    img {
+        height: 250px;
+    width: 250px;
+    }
+}
