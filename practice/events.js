@@ -25,5 +25,5 @@ function manageTasks(e) {
 }
 // Add your event listeners here for submit button and the to do list
 let btn = document.querySelector('#submitTask');
-btn.addEventListener('clickl, newTask)');
-document.querySekector('#todoList').addEventListener('click', manageTasks);
+btn.addEventListener('click', newTask);
+document.querySelector('#todoList').addEventListener('click', manageTasks);
