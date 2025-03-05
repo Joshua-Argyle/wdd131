@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
+img {
+	max-width: 100%;
+}
+#smaller {
+    font-size: 0.6em;
+    text-decoration: none;
+    color:#009999;
+    display: block;
+    text-align: center;
+}
+#info {
+    border: solid;
+    margin: 20px;
+    padding: 20px;
+
+}
+h1 {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 80px;
+    align-content: baseline;
+
+}
+#search {
+    height: 40px;
+    display: flex;
+    border-width: 1px;
+    width: 70%;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-bottom: 4%;
+    border-radius: 5px;
+    
+}
+#recipe_search {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-right: 5px;
+    width: 100%;
+}
+#search_image {
+    max-width: 35px;
+    max-height: 35px;
+}
+#search_button {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+button {
+    background-color: transparent;
+}
+header {
+    display: flex;
+    padding: 15px;
+    align-items: baseline;
+}
+#logo {
+    width: 110px;
+    height: 110px;
+    align-content: baseline;
+}
+p {
+    display: none;
+}
+#waffle {
+    padding: 0;
+    max-width: 400px;
+    width: 100%;
+}
+#breakfast {
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    width: 120px;
+}
+* {
+    font-family: Arial, Helvetica,sans-serif;
+    font-size: 25px;
+}
+h2 {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    color: #009999;
+    padding: 0;
+    margin-bottom: 0;
+}
+.rating {
+    padding: 0;
+    margin: 0;
+}
+.social_media {
+    display: flex;
+    justify-content: center;
+    
+
+}
+.social {
+    width: 70px;
+    padding: 5px;
+
+} 
+@media screen and (min-width: 600px) {
+    header {
+        padding: 5px;
+        justify-content: center;
+
+    }
+    #info {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 70%;
+        margin: 0 auto;
+
+    
+    }
+    #waffle {
+        grid-column: 1/2;
+        display: block;
+        margin: 30px auto;
+        
+    }
+    #description {
+        grid-column: 2/3;
+        margin: 30px;
+    }
+    #search {
+        width: 80%;
+        padding-bottom: 2%;
+    }
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        padding: 20px;
+    }
+    #smaller {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        padding-top: 25px;
+    }
+    .social_media {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .social {
+        width: 50px;
+    }
+
+
+}
