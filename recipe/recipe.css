@@ -9,7 +9,7 @@ img {
     display: block;
     text-align: center;
 }
-#info {
+#border {
     border: solid;
     margin: 20px;
     padding: 20px;
@@ -73,12 +73,16 @@ p {
     padding: 0;
     max-width: 400px;
     width: 100%;
+    padding-right: 30px;
 }
-#breakfast {
+.breakfast {
     border-color: black;
     border-width: 2px;
     border-style: solid;
-    width: 120px;
+    min-width: 120px;
+    max-width: 240px;
+    max-height: 60px;
+    margin: 5px;
 }
 * {
     font-family: Arial, Helvetica,sans-serif;
@@ -116,11 +120,14 @@ h2 {
     }
     #info {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        max-width: 70%;
+        grid-template-columns: 1fr;
+        max-width: 100%;
         margin: 0 auto;
 
     
+    }
+    p {
+        display: flex;
     }
     #waffle {
         grid-column: 1/2;
@@ -131,6 +138,7 @@ h2 {
     #description {
         grid-column: 2/3;
         margin: 30px;
+        max-width: 400px;
     }
     #search {
         width: 80%;
@@ -153,6 +161,13 @@ h2 {
     }
     .social {
         width: 50px;
+    }
+    #border {
+        border: solid;
+        margin-left: 120px;
+        margin-right: 120px;
+        padding: 5px;
+    
     }
 
 
