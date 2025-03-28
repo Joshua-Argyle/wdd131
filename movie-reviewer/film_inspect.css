@@ -224,6 +224,9 @@ footer {
     margin: auto;
     margin-bottom: 50px;
     border-radius: 10px;
+    border-style: solid;
+    border-color: #596F62;
+    border-width: 3px;
 }
 #rate_form {
     grid-column: 2/3;
