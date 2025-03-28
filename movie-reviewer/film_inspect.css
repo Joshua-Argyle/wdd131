@@ -5,7 +5,7 @@ body {
     
 }
 
-p {
+p, li {
   font-family: "Bitter", serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -27,10 +27,14 @@ button {
     outline: none;
     width: 150px;
 }
-a {
+a, h1, h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
     color: white;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 #nav-bar {
@@ -160,7 +164,58 @@ footer {
     padding: 5px;
     border-radius: 10%;
 }
+ li {
+    letter-spacing: 2px;
+    line-height: 30px;
+    list-style-type: none;
+ }
+ #search_full {
+    text-align: center;
+ }
+#search {
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+    height: 35px;
+}
+#input_box {
+    border-radius: 3px;
+    height: 30px;
+    width: 200px;
+    margin-right: 0px;
+    
+}
+#movie {
+    max-width: 800px;
+    text-align: center;
+    margin: 20px auto;
+    padding: 40px;
+    background-color: #1C3144;
+    border: solid;
+    border-width: 5px;
+    border-radius: 5px;
+    border-color: #596F62;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#main_page1 {
+    display:flex;
+    flex-direction: column;
 
+}
+.poster {
+    width:70%
+}
+#column_1 {
+    grid-column: 1/2;
+    text-align: center;
+}
+#ratings_filtered {
+    grid-column: 2/3;
+    margin: auto;
+    text-align: left;
+}
 @media screen and (max-width: 800px) {
     nav {
         display: none;
@@ -196,5 +251,17 @@ footer {
         padding-right: 10px;
         padding-top: 10px;
         padding-bottom: 10px;
+    }
+    li {
+        font-size: x-small;
+    }
+
+    #ratings_filtered {
+        padding: 0px;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    #movie {
+        padding-left: 20px;
     }
   }
