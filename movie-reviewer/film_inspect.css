@@ -379,6 +379,9 @@ input[type="radio"] {
     #ratings_filtered {
         padding: 0px;
     }
+    #what_movie {
+        width: 120px;
+    }
   }
   @media screen and (max-width: 800px) {
     #movie {
@@ -438,5 +441,11 @@ input[type="radio"] {
     }
     #h1_page3 {
         font-size: medium;
-    }
+    }}
+    @media screen and (max-width: 360px) {
+        #numbers {
+            letter-spacing: 5px;
+            padding-left: 5px;
+            font-size: xx-small;
+        }
   }
