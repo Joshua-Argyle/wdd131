@@ -14,6 +14,12 @@ p, li {
   background-color: #1C3144;
   font-size: larger;
 }
+hr {
+    border: none;
+    height: 2px; 
+    background-color: #596F62;
+    margin: 10px 0; /
+}
 button {
     background-color: #596F62;
     color: white;
