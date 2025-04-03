@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="film_inspect.css">
     <link rel="filmz_inspect_icon" href="favicon.png" type="image/x-icon">
+    <script type="module" src="rate_form.js" defer></script>
 </head>
 <body>
     <div id="nav-bar">
@@ -26,12 +27,12 @@
         <option value="frozen">Frozen</option>
         <option value="harry_potter">Harry Potter and the Sorceror's Stone</option>
         <option value="indiana_jones">Indiana Jones and the Raiders of the Lost Ark</option>
-        <option value="lion_king">The Lion King</option>
+        <option value="the_lion_king">The Lion King</option>
         <option value="napoleon_dynamite">Napoleon Dynamite</option>
-        <option value="prince_of_egypt">The Prince of Egypt</option>
-        <option value="quiet_place">A Quiet Place</option>
+        <option value="the_prince_of_egypt">The Prince of Egypt</option>
+        <option value="a_quiet_place">A Quiet Place</option>
         <option value="star_wars">Star Wars a New Hope</option>
-        <option value="super_mario_bros_movie">The Super Mario Bros. Movie</option>
+        <option value="the_super_mario_bros_movie">The Super Mario Bros. Movie</option>
         <option value="tenet">Tenet</option>
         <option value="titanic">Titanic</option>
         <option value="up">Up</option>
@@ -46,146 +47,155 @@
         <li class="li_page3">Sexual:</li>
         <li class="li_page3">Scary:</li>
         <li class="li_page3">Suspense:</li>
-        <li class="li_page3">Religous:</li>
+        <li class="li_page3">Religious:</li>
         <li class="li_page3">Feel-Good:</li>
         </ul>
     <form id="rate_form" action="">
         <label id="numbers" for="rate_form">1 2 3 4 5 6 7 8 9 <span class="no-spacing">10</span></label>
             <div id="action">
-                <input type="radio" name="action" id="">
-                <input type="radio" name="action" id="">
-                <input type="radio" name="action" id="">
-                <input type="radio" name="action" id="">
-                <input type="radio" name="action" id="">
-                <input type="radio" name="action" id="">
-                <input type="radio" name="action" id="">
-                <input type="radio" name="action" id="">
-                <input type="radio" name="action" id="">
-                <input type="radio" name="action" id="">
+                <label><input type="radio" name="action" value="1"></label>
+                <label><input type="radio" name="action" value="2"></label>
+                <label><input type="radio" name="action" value="3"></label>
+                <label><input type="radio" name="action" value="4"></label>
+                <label><input type="radio" name="action" value="5"></label>
+                <label><input type="radio" name="action" value="6"></label>
+                <label><input type="radio" name="action" value="7"></label>
+                <label><input type="radio" name="action" value="8"></label>
+                <label><input type="radio" name="action" value="9"></label>
+                <label><input type="radio" name="action" value="10"></label>
             </div>
+    
             <div id="adventure">
-                <input type="radio" name="adventure" id="">
-                <input type="radio" name="adventure" id="">
-                <input type="radio" name="adventure" id="">
-                <input type="radio" name="adventure" id="">
-                <input type="radio" name="adventure" id="">
-                <input type="radio" name="adventure" id="">
-                <input type="radio" name="adventure" id="">
-                <input type="radio" name="adventure" id="">
-                <input type="radio" name="adventure" id="">
-                <input type="radio" name="adventure" id="">
+                <label><input type="radio" name="adventure" value="1"></label>
+                <label><input type="radio" name="adventure" value="2"></label>
+                <label><input type="radio" name="adventure" value="3"></label>
+                <label><input type="radio" name="adventure" value="4"></label>
+                <label><input type="radio" name="adventure" value="5"></label>
+                <label><input type="radio" name="adventure" value="6"></label>
+                <label><input type="radio" name="adventure" value="7"></label>
+                <label><input type="radio" name="adventure" value="8"></label>
+                <label><input type="radio" name="adventure" value="9"></label>
+                <label><input type="radio" name="adventure" value="10"></label>
             </div>
+    
             <div id="comedy">
-                <input type="radio" name="comedy" id="">
-                <input type="radio" name="comedy" id="">
-                <input type="radio" name="comedy" id="">
-                <input type="radio" name="comedy" id="">
-                <input type="radio" name="comedy" id="">
-                <input type="radio" name="comedy" id="">
-                <input type="radio" name="comedy" id="">
-                <input type="radio" name="comedy" id="">
-                <input type="radio" name="comedy" id="">
-                <input type="radio" name="comedy" id="">
+                <label><input type="radio" name="comedy" value="1"></label>
+                <label><input type="radio" name="comedy" value="2"></label>
+                <label><input type="radio" name="comedy" value="3"></label>
+                <label><input type="radio" name="comedy" value="4"></label>
+                <label><input type="radio" name="comedy" value="5"></label>
+                <label><input type="radio" name="comedy" value="6"></label>
+                <label><input type="radio" name="comedy" value="7"></label>
+                <label><input type="radio" name="comedy" value="8"></label>
+                <label><input type="radio" name="comedy" value="9"></label>
+                <label><input type="radio" name="comedy" value="10"></label>
             </div>
+
             <div id="gore-rating">
-                <input type="radio" name="gore-rating" id="">
-                <input type="radio" name="gore-rating" id="">
-                <input type="radio" name="gore-rating" id="">
-                <input type="radio" name="gore-rating" id="">
-                <input type="radio" name="gore-rating" id="">
-                <input type="radio" name="gore-rating" id="">
-                <input type="radio" name="gore-rating" id="">
-                <input type="radio" name="gore-rating" id="">
-                <input type="radio" name="gore-rating" id="">
-                <input type="radio" name="gore-rating" id="">
+                <label><input type="radio" name="gore-rating" value="1"></label>
+                <label><input type="radio" name="gore-rating" value="2"></label>
+                <label><input type="radio" name="gore-rating" value="3"></label>
+                <label><input type="radio" name="gore-rating" value="4"></label>
+                <label><input type="radio" name="gore-rating" value="5"></label>
+                <label><input type="radio" name="gore-rating" value="6"></label>
+                <label><input type="radio" name="gore-rating" value="7"></label>
+                <label><input type="radio" name="gore-rating" value="8"></label>
+                <label><input type="radio" name="gore-rating" value="9"></label>
+                <label><input type="radio" name="gore-rating" value="10"></label>
             </div>
+            
             <div id="kid-friendly">
-                <input type="radio" name="kid-friendly" id="">
-                <input type="radio" name="kid-friendly" id="">
-                <input type="radio" name="kid-friendly" id="">
-                <input type="radio" name="kid-friendly" id="">
-                <input type="radio" name="kid-friendly" id="">
-                <input type="radio" name="kid-friendly" id="">
-                <input type="radio" name="kid-friendly" id="">
-                <input type="radio" name="kid-friendly" id="">
-                <input type="radio" name="kid-friendly" id="">
-                <input type="radio" name="kid-friendly" id="">
+                <label><input type="radio" name="kid-friendly" value="1"></label>
+                <label><input type="radio" name="kid-friendly" value="2"></label>
+                <label><input type="radio" name="kid-friendly" value="3"></label>
+                <label><input type="radio" name="kid-friendly" value="4"></label>
+                <label><input type="radio" name="kid-friendly" value="5"></label>
+                <label><input type="radio" name="kid-friendly" value="6"></label>
+                <label><input type="radio" name="kid-friendly" value="7"></label>
+                <label><input type="radio" name="kid-friendly" value="8"></label>
+                <label><input type="radio" name="kid-friendly" value="9"></label>
+                <label><input type="radio" name="kid-friendly" value="10"></label>
             </div>
+            
             <div id="romance">
-                <input type="radio" name="romance" id="">
-                <input type="radio" name="romance" id="">
-                <input type="radio" name="romance" id="">
-                <input type="radio" name="romance" id="">
-                <input type="radio" name="romance" id="">
-                <input type="radio" name="romance" id="">
-                <input type="radio" name="romance" id="">
-                <input type="radio" name="romance" id="">
-                <input type="radio" name="romance" id="">
-                <input type="radio" name="romance" id="">
+                <label><input type="radio" name="romance" value="1"></label>
+                <label><input type="radio" name="romance" value="2"></label>
+                <label><input type="radio" name="romance" value="3"></label>
+                <label><input type="radio" name="romance" value="4"></label>
+                <label><input type="radio" name="romance" value="5"></label>
+                <label><input type="radio" name="romance" value="6"></label>
+                <label><input type="radio" name="romance" value="7"></label>
+                <label><input type="radio" name="romance" value="8"></label>
+                <label><input type="radio" name="romance" value="9"></label>
+                <label><input type="radio" name="romance" value="10"></label>
             </div>
+            
             <div id="sexual">
-                <input type="radio" name="sexual" id="">
-                <input type="radio" name="sexual" id="">
-                <input type="radio" name="sexual" id="">
-                <input type="radio" name="sexual" id="">
-                <input type="radio" name="sexual" id="">
-                <input type="radio" name="sexual" id="">
-                <input type="radio" name="sexual" id="">
-                <input type="radio" name="sexual" id="">
-                <input type="radio" name="sexual" id="">
-                <input type="radio" name="sexual" id="">
+                <label><input type="radio" name="sexual" value="1"></label>
+                <label><input type="radio" name="sexual" value="2"></label>
+                <label><input type="radio" name="sexual" value="3"></label>
+                <label><input type="radio" name="sexual" value="4"></label>
+                <label><input type="radio" name="sexual" value="5"></label>
+                <label><input type="radio" name="sexual" value="6"></label>
+                <label><input type="radio" name="sexual" value="7"></label>
+                <label><input type="radio" name="sexual" value="8"></label>
+                <label><input type="radio" name="sexual" value="9"></label>
+                <label><input type="radio" name="sexual" value="10"></label>
             </div>
+            
             <div id="scary">
-                <input type="radio" name="scary" id="">
-                <input type="radio" name="scary" id="">
-                <input type="radio" name="scary" id="">
-                <input type="radio" name="scary" id="">
-                <input type="radio" name="scary" id="">
-                <input type="radio" name="scary" id="">
-                <input type="radio" name="scary" id="">
-                <input type="radio" name="scary" id="">
-                <input type="radio" name="scary" id="">
-                <input type="radio" name="scary" id="">
+                <label><input type="radio" name="scary" value="1"></label>
+                <label><input type="radio" name="scary" value="2"></label>
+                <label><input type="radio" name="scary" value="3"></label>
+                <label><input type="radio" name="scary" value="4"></label>
+                <label><input type="radio" name="scary" value="5"></label>
+                <label><input type="radio" name="scary" value="6"></label>
+                <label><input type="radio" name="scary" value="7"></label>
+                <label><input type="radio" name="scary" value="8"></label>
+                <label><input type="radio" name="scary" value="9"></label>
+                <label><input type="radio" name="scary" value="10"></label>
             </div>
+            
             <div id="suspense">
-                <input type="radio" name="suspense" id="">
-                <input type="radio" name="suspense" id="">
-                <input type="radio" name="suspense" id="">
-                <input type="radio" name="suspense" id="">
-                <input type="radio" name="suspense" id="">
-                <input type="radio" name="suspense" id="">
-                <input type="radio" name="suspense" id="">
-                <input type="radio" name="suspense" id="">
-                <input type="radio" name="suspense" id="">
-                <input type="radio" name="suspense" id="">
+                <label><input type="radio" name="suspense" value="1"></label>
+                <label><input type="radio" name="suspense" value="2"></label>
+                <label><input type="radio" name="suspense" value="3"></label>
+                <label><input type="radio" name="suspense" value="4"></label>
+                <label><input type="radio" name="suspense" value="5"></label>
+                <label><input type="radio" name="suspense" value="6"></label>
+                <label><input type="radio" name="suspense" value="7"></label>
+                <label><input type="radio" name="suspense" value="8"></label>
+                <label><input type="radio" name="suspense" value="9"></label>
+                <label><input type="radio" name="suspense" value="10"></label>
             </div>
-            <div id="religous">
-                <input type="radio" name="religous" id="">
-                <input type="radio" name="religous" id="">
-                <input type="radio" name="religous" id="">
-                <input type="radio" name="religous" id="">
-                <input type="radio" name="religous" id="">
-                <input type="radio" name="religous" id="">
-                <input type="radio" name="religous" id="">
-                <input type="radio" name="religous" id="">
-                <input type="radio" name="religous" id="">
-                <input type="radio" name="religous" id="">
+            
+            <div id="religious">
+                <label><input type="radio" name="religious" value="1"></label>
+                <label><input type="radio" name="religious" value="2"></label>
+                <label><input type="radio" name="religious" value="3"></label>
+                <label><input type="radio" name="religious" value="4"></label>
+                <label><input type="radio" name="religious" value="5"></label>
+                <label><input type="radio" name="religious" value="6"></label>
+                <label><input type="radio" name="religious" value="7"></label>
+                <label><input type="radio" name="religious" value="8"></label>
+                <label><input type="radio" name="religious" value="9"></label>
+                <label><input type="radio" name="religious" value="10"></label>
             </div>
+            
             <div id="feel-good">
-                <input type="radio" name="feel-good" id="">
-                <input type="radio" name="feel-good" id="">
-                <input type="radio" name="feel-good" id="">
-                <input type="radio" name="feel-good" id="">
-                <input type="radio" name="feel-good" id="">
-                <input type="radio" name="feel-good" id="">
-                <input type="radio" name="feel-good" id="">
-                <input type="radio" name="feel-good" id="">
-                <input type="radio" name="feel-good" id="">
-                <input type="radio" name="feel-good" id="">
+                <label><input type="radio" name="feel-good" value="1"></label>
+                <label><input type="radio" name="feel-good" value="2"></label>
+                <label><input type="radio" name="feel-good" value="3"></label>
+                <label><input type="radio" name="feel-good" value="4"></label>
+                <label><input type="radio" name="feel-good" value="5"></label>
+                <label><input type="radio" name="feel-good" value="6"></label>
+                <label><input type="radio" name="feel-good" value="7"></label>
+                <label><input type="radio" name="feel-good" value="8"></label>
+                <label><input type="radio" name="feel-good" value="9"></label>
+                <label><input type="radio" name="feel-good" value="10"></label>
             </div>
     <button id="submit" type="submit">Publish Rating</button>
     </form>
-
 </main>
 <footer>
     <p id="copyright">Film Inspect © 2025 - Joshua Argyle </p>

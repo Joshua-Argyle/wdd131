@@ -2,7 +2,7 @@ const movies = [
     {
         title: "BACK TO THE FUTURE",
         img: "movie_posters/back to the future.jpg",
-        rottonTomatoesRating: "93%",
+        rottenTomatoesRating: "93%",
         imdbRating: "8.5/10",
         action: "#.#",
         adventure: "#.#",
@@ -13,13 +13,13 @@ const movies = [
         sexual: "#.#",
         scary: "#.#",
         suspense: "#.#",
-        religous: "#.#",
+        religious: "#.#",
         feelGood: "#.#",
         },
     {
         title: "CINDERELLA",
         img: "movie_posters/cinderella.jpg",
-        rottonTomatoesRating: "95%",
+        rottenTomatoesRating: "95%",
         imdbRating: "7.3/10",
         action: "#.#",
         adventure: "#.#",
@@ -30,13 +30,13 @@ const movies = [
         sexual: "#.#",
         scary: "#.#",
         suspense: "#.#",
-        religous: "#.#",
+        religious: "#.#",
         feelGood: "#.#",
         },
     {
         title: "FROZEN",
         img: "movie_posters/frozen.jpg",
-        rottonTomatoesRating: "89%",
+        rottenTomatoesRating: "89%",
         imdbRating: "7.4/10",
         action: "#.#",
         adventure: "#.#",
@@ -47,13 +47,13 @@ const movies = [
         sexual: "#.#",
         scary: "#.#",
         suspense: "#.#",
-        religous: "#.#",
+        religious: "#.#",
         feelGood: "#.#",
         },
     {
         title: "HARRY POTTER AND THE SORCEROR'S STONE",
         img: "movie_posters/harry potter.jpg",
-        rottonTomatoesRating: "80%",
+        rottenTomatoesRating: "80%",
         imdbRating: "7.7/10",
         action: "#.#",
         adventure: "#.#",
@@ -64,13 +64,13 @@ const movies = [
         sexual: "#.#",
         scary: "#.#",
         suspense: "#.#",
-        religous: "#.#",
+        religious: "#.#",
         feelGood: "#.#",
         },
     {
         title: "INDIANA JONES AND THE RAIDERS OF THE LOST ARK",
         img: "movie_posters/indiana jones.jpg",
-        rottonTomatoesRating: "94%",
+        rottenTomatoesRating: "94%",
         imdbRating: "8.4/10",
         action: "#.#",
         adventure: "#.#",
@@ -81,13 +81,13 @@ const movies = [
         sexual: "#.#",
         scary: "#.#",
         suspense: "#.#",
-        religous: "#.#",
+        religious: "#.#",
         feelGood: "#.#",
         },
     {
         title: "THE LION KING",
         img: "movie_posters/lion king.jpeg",
-        rottonTomatoesRating: "93%",
+        rottenTomatoesRating: "93%",
         imdbRating: "8.5/10",
         action: "#.#",
         adventure: "#.#",
@@ -98,13 +98,13 @@ const movies = [
         sexual: "#.#",
         scary: "#.#",
         suspense: "#.#",
-        religous: "#.#",
+        religious: "#.#",
         feelGood: "#.#",
         },
     {
         title: "NAPOLEON DYNAMITE",
         img: "movie_posters/napoleon dynamite.jpg",
-        rottonTomatoesRating: "72%",
+        rottenTomatoesRating: "72%",
         imdbRating: "7.0/10",
         action: "#.#",
         adventure: "#.#",
@@ -115,13 +115,13 @@ const movies = [
         sexual: "#.#",
         scary: "#.#",
         suspense: "#.#",
-        religous: "#.#",
+        religious: "#.#",
         feelGood: "#.#",
         },
     {
         title: "THE PRINCE OF EGYPT",
         img: "movie_posters/prince of egypt.jpg",
-        rottonTomatoesRating: "80%",
+        rottenTomatoesRating: "80%",
         imdbRating: "7.2/10",
         action: "#.#",
         adventure: "#.#",
@@ -132,13 +132,13 @@ const movies = [
         sexual: "#.#",
         scary: "#.#",
         suspense: "#.#",
-        religous: "#.#",
+        religious: "#.#",
         feelGood: "#.#",
         },
     {
         title: "A QUIET PLACE",
         img: "movie_posters/quiet place.jpg",
-        rottonTomatoesRating: "96%",
+        rottenTomatoesRating: "96%",
         imdbRating: "7.5/10",
         action: "#.#",
         adventure: "#.#",
@@ -149,13 +149,13 @@ const movies = [
         sexual: "#.#",
         scary: "#.#",
         suspense: "#.#",
-        religous: "#.#",
+        religious: "#.#",
         feelGood: "#.#",
         },
     {
         title: "STAR WARS: EPISODE IV- A NEW HOPE",
         img: "movie_posters/starwars.jpg",
-        rottonTomatoesRating: "93%",
+        rottenTomatoesRating: "93%",
         imdbRating: "8.6/10",
         action: "#.#",
         adventure: "#.#",
@@ -166,13 +166,13 @@ const movies = [
         sexual: "#.#",
         scary: "#.#",
         suspense: "#.#",
-        religous: "#.#",
+        religious: "#.#",
         feelGood: "#.#",
         },
     {
         title: "THE SUPER MARIO BROS. MOVIE",
         img: "movie_posters/super mario bros movie.jpg",
-        rottonTomatoesRating: "59%",
+        rottenTomatoesRating: "59%",
         imdbRating: "7.0/10",
         action: "#.#",
         adventure: "#.#",
@@ -183,13 +183,13 @@ const movies = [
         sexual: "#.#",
         scary: "#.#",
         suspense: "#.#",
-        religous: "#.#",
+        religious: "#.#",
         feelGood: "#.#",
         },
     {
         title: "TENET",
         img: "movie_posters/tenet.jpg",
-        rottonTomatoesRating: "76%",
+        rottenTomatoesRating: "76%",
         imdbRating: "7.3/10",
         action: "#.#",
         adventure: "#.#",
@@ -200,13 +200,13 @@ const movies = [
         sexual: "#.#",
         scary: "#.#",
         suspense: "#.#",
-        religous: "#.#",
+        religious: "#.#",
         feelGood: "#.#",
         },
     {
         title: "TITANIC",
         img: "movie_posters/titanic.jpg",
-        rottonTomatoesRating: "88%",
+        rottenTomatoesRating: "88%",
         imdbRating: "7.9/10",
         action: "#.#",
         adventure: "#.#",
@@ -217,13 +217,13 @@ const movies = [
         sexual: "#.#",
         scary: "#.#",
         suspense: "#.#",
-        religous: "#.#",
+        religious: "#.#",
         feelGood: "#.#",
         },
     {
         title: "UP",
         img: "movie_posters/up.jpeg",
-        rottonTomatoesRating: "98%",
+        rottenTomatoesRating: "98%",
         imdbRating: "8.3/10",
         action: "#.#",
         adventure: "#.#",
@@ -234,7 +234,7 @@ const movies = [
         sexual: "#.#",
         scary: "#.#",
         suspense: "#.#",
-        religous: "#.#",
+        religious: "#.#",
         feelGood: "#.#",
         },
 ]
@@ -244,10 +244,10 @@ function movieTemplate(movie){
         <div id="column_1">
         <h2>${movie.title}</h2>
         <img class="poster" src="${movie.img}" alt="${movie.title}">
-        <p id="rotton_tomatoes">Rotton Tomatoes Rating: ${movie.rottonTomatoesRating}</p>
+        <p id="rotton_tomatoes">Rotton Tomatoes Rating: ${movie.rottenTomatoesRating}</p>
         <p id="IMDb">IMDb Rating: ${movie.imdbRating}</p></div>
         <ul id="ratings_filtered">
-            <li>Action: ${movie.action}/10</li>
+            <li>Action: ${movie.action}</li>
             <li>Adventure: ${movie.adventure}</li>
             <li>Comedy: ${movie.comedy}</li>
             <li>Gore-Rating: ${movie.goreRating}</li>
@@ -256,7 +256,7 @@ function movieTemplate(movie){
             <li>Sexual: ${movie.sexual}</li>
             <li>Scary: ${movie.scary}</li>
             <li>Suspense: ${movie.suspense}</li>
-            <li>Religous: ${movie.religous}</li>
+            <li>Religous: ${movie.religious}</li>
             <li>Feel-Good: ${movie.feelGood}</li>
         </ul>
         <hr>`
@@ -312,3 +312,61 @@ function search_handler(event) {
 }
 
 document.querySelector('#search').addEventListener('click', search_handler);
+document.addEventListener('DOMContentLoaded', () => {
+    function fetchMovieRatings(movieTitle) {
+        const formattedTitle = movieTitle.toLowerCase().replace(/ /g, '_'); // Format to match the server
+
+        return fetch(`http://localhost:3000/getMovieRatings/${formattedTitle}`)
+            .then(response => {
+                if (!response.ok) throw new Error(`Failed to fetch ratings for ${movieTitle}`);
+                return response.json();
+            })
+            .then(data => {
+                if (data.message) {
+                    console.log(data.message);
+                    return null;
+                }
+                return { title: movieTitle, ratings: data.averages };
+            })
+            .catch(error => {
+                console.error(`Error fetching ratings for ${movieTitle}:`, error);
+                return null;
+            });
+    }
+
+    function updateMovieRatings(moviesWithRatings) {
+        moviesWithRatings.forEach(({ title, ratings }) => {
+            const movie = movies.find(m => m.title.toUpperCase() === title.toUpperCase());
+            if (!movie) return;
+    
+            Object.keys(ratings).forEach(category => {
+                let categoryKey = category;
+    
+                // Map server's "gore" to "goreRating" in the movie object
+                if (category === "gore") {
+                    categoryKey = "goreRating";
+                }
+    
+                if (movie.hasOwnProperty(categoryKey)) {
+                    movie[categoryKey] = ratings[category] + "/10"; // Append "/10" for formatting
+                }
+            });
+        });
+    
+        rerenderMovies();
+    }
+    function rerenderMovies() {
+        let movieContainer = document.querySelector('#movie');
+        movieContainer.innerHTML = ''; // Clear previous content
+        renderMovies(movies); // Render all updated movies
+    }
+
+    async function fetchAllMovieRatings() {
+        const ratingPromises = movies.map(movie => fetchMovieRatings(movie.title));
+        const moviesWithRatings = (await Promise.all(ratingPromises)).filter(Boolean);
+        updateMovieRatings(moviesWithRatings);
+    }
+
+    // Fetch ratings for all movies dynamically on page load
+    fetchAllMovieRatings();
+});
