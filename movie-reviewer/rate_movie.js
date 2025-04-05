@@ -319,7 +319,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function fetchMovieRatings(movieTitle) {
         const formattedTitle = movieTitle.toLowerCase().replace(/ /g, '_'); // Format to match the server
 
-        return fetch(`http://localhost:3000/getMovieRatings/${formattedTitle}`)
+        return fetch(`https://film-inspect.onrender.com/${formattedTitle}`)
             .then(response => {
                 if (!response.ok) throw new Error(`Failed to fetch ratings for ${movieTitle}`);
                 return response.json();
