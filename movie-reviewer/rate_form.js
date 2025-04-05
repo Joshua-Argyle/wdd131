@@ -1,6 +1,5 @@
-function toggleMenu() {
-    document.getElementById('nav-links').classList.toggle('show');
-  }
+
+
 document.getElementById('submit').addEventListener('click', function(e) {
     e.preventDefault();  // Prevent form submission and page reload
 
@@ -67,7 +66,7 @@ document.getElementById('submit').addEventListener('click', function(e) {
         return response.json();
     })
     .then(() => {
-        // ✅ Redirect to thank_you.html **AFTER** successfully sending data
+        
         window.location.href = "/movie-reviewer/thank_you.html";
     })
     .catch((error) => {
@@ -75,3 +74,4 @@ document.getElementById('submit').addEventListener('click', function(e) {
         alert('Something went wrong. Please try again later.');
     });
 });
+

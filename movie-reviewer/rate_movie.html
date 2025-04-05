@@ -11,7 +11,7 @@
 <body>
     <div id="nav-bar">
         <a href="film_inspect.html"><img id ="logo" src="FIlm Inspect (1).jpg" alt="logo"></a>
-        <button id="hamburger"  type="button" onclick="toggleMenu()">☰</button>
+        <button id="hamburger" onclick="toggleMenu()">☰</button>
         <nav id="nav-links">
             <a class="links" href="rate_movie.html">Movie Ratings</a>
             <a class="links" id="home" href="film_inspect.html">Home</a>
@@ -30,6 +30,9 @@
     </section>
 </main>
 <div id="movie"></div>
+<script>function toggleMenu() {
+    document.getElementById('nav-links').classList.toggle('show');
+  }</script>
 </body>
 <footer>
     <p id="copyright">Film Inspect © 2025 - Joshua Argyle </p>

@@ -386,6 +386,7 @@ input[type="radio"] {
     margin-top: 40px;
     padding-top: 10px;
     padding-bottom: 10px;
+    min-height: 70px;
     
 
 
@@ -469,7 +470,9 @@ input[type="radio"] {
     li {
         font-size: x-small;
     }
-
+    #h1_page3 {
+        padding-bottom: 20px;
+    }
     #ratings_filtered {
         padding: 0px;
     }
