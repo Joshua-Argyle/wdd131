@@ -52,7 +52,7 @@ document.getElementById('submit').addEventListener('click', function(e) {
     };
 
     // Send the data to the server (example with fetch API)
-    fetch('https://film-inspect.onrender.com/', {
+    fetch('https://film-inspect.onrender.com/submitRating', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
