@@ -1,3 +1,6 @@
+function toggleMenu() {
+    document.getElementById('nav-links').classList.toggle('show');
+  }
 document.getElementById('submit').addEventListener('click', function(e) {
     e.preventDefault();  // Prevent form submission and page reload
 
@@ -9,7 +12,7 @@ document.getElementById('submit').addEventListener('click', function(e) {
         alert('Please select a movie before submitting.');
         return; // Prevent submission if the movie is not selected
     }
-
+    
     // Get the ratings from each category
     let actionRating = document.querySelector('input[name="action"]:checked')?.value;
     let adventureRating = document.querySelector('input[name="adventure"]:checked')?.value;
@@ -32,8 +35,8 @@ document.getElementById('submit').addEventListener('click', function(e) {
         alert('Please rate all categories before submitting.');
         return; // Prevent submission if any ratings are missing
     }
-
-    // Create the rating data object, including the selected movie title
+    
+    // Create the rating data object
     let ratingData = {
         movie: movieTitle,
         action: actionRating,
@@ -58,15 +61,14 @@ document.getElementById('submit').addEventListener('click', function(e) {
         body: JSON.stringify(ratingData),
     })
     .then(response => {
-        // Check if response is valid
         if (!response.ok) {
             throw new Error('Server error');
         }
-        return response.json();  // Attempt to parse JSON
+        return response.json();
     })
-    .then(data => {
-        console.log('Rating submitted:', data);
-        alert('Thank you for your rating!');
+    .then(() => {
+        // ✅ Redirect to thank_you.html **AFTER** successfully sending data
+        window.location.href = "/movie-reviewer/thank_you.html";
     })
     .catch((error) => {
         console.error('Error:', error);

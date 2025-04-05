@@ -6,23 +6,24 @@
     <title>Film Inspect</title>
     <link rel="stylesheet" href="film_inspect.css">
     <link rel="filmzz_inspect_icon" href="favicon.png" type="image/x-icon">
+    <script src="film_inspect.js"></script>
 </head>
-<body>
+<body id="homeb">
     <div id="nav-bar">
-        <img id ="logo" src="FIlm Inspect (1).jpg" alt="logo">
-        <nav>
+        <a href="film_inspect.html"><img id ="logo" src="FIlm Inspect (1).jpg" alt="logo"></a>
+        <button id="hamburger"  type="button" onclick="toggleMenu()">☰</button>
+        <nav id="nav-links">
             <a class="links" href="rate_movie.html">Movie Ratings</a>
             <a class="links" id="home" href="film_inspect.html">Home</a>
             <a class="links" href="rate_form.html">Rate a Movie</a>
         </nav>
     </div>
-    
-    <img class="image-blurred-edge" id ="hero" src="hero.webp" alt="hero">
-    <main>
+    <img id="hero" src="hero.webp" alt="hero">
+    <main class="fade-border" id="home_main">
         <button id="rating"><a href="rate_form.html">Start Rating Now</a></button>
         <p id="intro">Rate your favorite movies, and view ratings of others. Don't waste time watching a bad movie with Film Inspect!</p>
         <p id="intro_2">Movies deserve more than one rating. View ratings for action, comedy, romance levels, and more. The movie you watch tonight shouldn't be based on one rating. Watch the movie that matches your mood.</p>
-        <button id="view"><a href="rate_movie.html">View Movie Ratings</a></button>
+        <button class="view"><a class="view" href="rate_movie.html">View Movie Ratings</a></button>
     </main>
 </body>
 <footer>

@@ -1,3 +1,6 @@
+function toggleMenu() {
+    document.getElementById('nav-links').classList.toggle('show');
+  }
 const movies = [
     {
         title: "BACK TO THE FUTURE",
@@ -153,7 +156,7 @@ const movies = [
         feelGood: "#.#",
         },
     {
-        title: "STAR WARS: EPISODE IV- A NEW HOPE",
+        title: "STAR WARS: A NEW HOPE",
         img: "movie_posters/starwars.jpg",
         rottenTomatoesRating: "93%",
         imdbRating: "8.6/10",

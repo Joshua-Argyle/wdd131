@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rate Form</title>
     <link rel="stylesheet" href="film_inspect.css">
     <link rel="filmz_inspect_icon" href="favicon.png" type="image/x-icon">
     <script type="module" src="rate_form.js" defer></script>
 </head>
 <body>
     <div id="nav-bar">
-        <img id ="logo" src="FIlm Inspect (1).jpg" alt="logo">
-        <nav>
+        <a href="film_inspect.html"><img id ="logo" src="FIlm Inspect (1).jpg" alt="logo"></a>
+        <button id="hamburger"  type="button" onclick="toggleMenu()">☰</button>
+        <nav id="nav-links">
             <a class="links" href="rate_movie.html">Movie Ratings</a>
             <a class="links" id="home" href="film_inspect.html">Home</a>
             <a class="links" href="rate_form.html">Rate a Movie</a>
@@ -25,14 +26,14 @@
         <option value="back_to_the_future">Back to the Future</option>
         <option value="cinderella">Cinderella</option>
         <option value="frozen">Frozen</option>
-        <option value="harry_potter">Harry Potter and the Sorceror's Stone</option>
-        <option value="indiana_jones">Indiana Jones and the Raiders of the Lost Ark</option>
+        <option value="harry_potter_and_the_sorceror's_stone">Harry Potter and the Sorceror's Stone</option>
+        <option value="indiana_jones_and_the_raiders_of_the_lost_ark">Indiana Jones and the Raiders of the Lost Ark</option>
         <option value="the_lion_king">The Lion King</option>
         <option value="napoleon_dynamite">Napoleon Dynamite</option>
         <option value="the_prince_of_egypt">The Prince of Egypt</option>
         <option value="a_quiet_place">A Quiet Place</option>
-        <option value="star_wars">Star Wars a New Hope</option>
-        <option value="the_super_mario_bros_movie">The Super Mario Bros. Movie</option>
+        <option value="star_wars:_a_new_hope">Star Wars a New Hope</option>
+        <option value="the_super_mario_bros._movie">The Super Mario Bros. Movie</option>
         <option value="tenet">Tenet</option>
         <option value="titanic">Titanic</option>
         <option value="up">Up</option>
@@ -50,7 +51,7 @@
         <li class="li_page3">Religious:</li>
         <li class="li_page3">Feel-Good:</li>
         </ul>
-    <form id="rate_form" action="">
+    <form id="rate_form"  action="thank_you.html" method="GET">
         <label id="numbers" for="rate_form">1 2 3 4 5 6 7 8 9 <span class="no-spacing">10</span></label>
             <div id="action">
                 <label><input type="radio" name="action" value="1"></label>

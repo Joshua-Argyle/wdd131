@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Movie Ratings</title>
     <link rel="stylesheet" href="film_inspect.css">
     <link rel="film_inspect_icon" href="favicon.png" type="image/x-icon">
     <script type="module" src="rate_movie.js" defer></script>
 </head>
 <body>
     <div id="nav-bar">
-        <img id ="logo" src="FIlm Inspect (1).jpg" alt="logo">
-        <nav>
+        <a href="film_inspect.html"><img id ="logo" src="FIlm Inspect (1).jpg" alt="logo"></a>
+        <button id="hamburger"  type="button" onclick="toggleMenu()">☰</button>
+        <nav id="nav-links">
             <a class="links" href="rate_movie.html">Movie Ratings</a>
             <a class="links" id="home" href="film_inspect.html">Home</a>
             <a class="links" href="rate_form.html">Rate a Movie</a>
@@ -27,12 +28,6 @@
         </form>
 
     </section>
-    <section id="border">
-        <section id="movie">
-            
-        </section>
-    </section>
-    <div id="averages"></div> <!-- This is where averages will be displayed -->
 </main>
 <div id="movie"></div>
 </body>
