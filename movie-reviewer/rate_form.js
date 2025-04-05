@@ -67,7 +67,7 @@ document.getElementById('submit').addEventListener('click', function(e) {
     })
     .then(() => {
         
-        window.location.href = "/movie-reviewer/thank_you.html";
+        window.location.href = "thank_you.html";
     })
     .catch((error) => {
         console.error('Error:', error);
